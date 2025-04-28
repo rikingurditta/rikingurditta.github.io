@@ -1,12 +1,17 @@
 import React, {useState} from 'react';
 import Container from "react-bootstrap/Container";
+import Carousel from "react-bootstrap/Carousel";
 import FullPageRow from "../components/FullPageRow";
 import Col from "react-bootstrap/Col";
 import TitleRow from "../components/TitleRow";
 import NewTabLink from "../components/NewTabLink";
 import compile from "../TSRegex/js/compiletest";
 import {wellFormedBrackets} from "../TSRegex/js/Lexical";
-import doughnut from "../images/02_doughnut_end_of_lvl_2.png";
+import donut from "../images/02_doughnut_end_of_lvl_2.png";
+import flamingo from "../images/flamingo.png"
+import joma from "../images/jomapumpkin2 viewport.png"
+import joma_tortoise from "../images/jo ma tor toise.png"
+import piggie from "../images/piggie.png"
 
 let soundcloud_div_style = {
     fontSize: '10px',
@@ -149,13 +154,27 @@ export default function Projects() {
                 <Col md={4} lg={{span: 4, order: 2}} className="my-auto">
                     <h2>3D Modelling</h2>
                     <p>
-                        I'm currently learning how to create and texture 3D models with Blender. I'm currently following
-                        Blender Guru's tutorials, but I'll be starting my own project soon! I'll update this page when I
-                        do.
+                        One of my hobbies is 3D modeling. Here's some of my super serious super realistic work.
                     </p>
                 </Col>
                 <Col md={4} lg={{span: 4, order: 1}} className="my-auto" style={{textAlign: 'center'}}>
-                    <img src={doughnut} style={{width: '80%'}} alt="donut"/>
+                    <Carousel style={{object_fit: "contain"}}>
+                        <Carousel.Item>
+                            <img src={flamingo} style={{height: '350px'}} alt="flamingo"/>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={joma} style={{height: '350px'}} alt="joma"/>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={joma_tortoise} style={{height: '350px', align: 'right'}} alt="tortoise"/>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={donut} style={{height: '350px'}} alt="donut"/>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={piggie} style={{height: '350px', align: 'right'}} alt="piggie"/>
+                        </Carousel.Item>
+                    </Carousel>
                 </Col>
             </FullPageRow>
         </Container>

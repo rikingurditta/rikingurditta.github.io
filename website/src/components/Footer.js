@@ -48,7 +48,7 @@ export default function Footer(props) {
                         School email: <a
                         href="mailto:rikin.gurditta@mail.utoronto.ca">rikin.gurditta@mail.utoronto.ca</a>
                         <br/>
-                        I use he/him pronouns
+                        I use any pronouns
                     </p>
                 </Col>
             </Row>

@@ -27,10 +27,10 @@ const sitePages = [
 ];
 
 const extPages = [
-    {
-        name: "Blog",
-        path: "https://rikingurditta.github.io/blog/"
-    }
+    // {
+    //     name: "Blog",
+    //     path: "https://rikingurditta.github.io/blog/"
+    // }
 ]
 
 function App() {

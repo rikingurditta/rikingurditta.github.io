@@ -46,7 +46,7 @@ export default function Footer(props) {
                         Personal email: <a href="mailto:rikingurditta@gmail.com">rikingurditta@gmail.com</a>
                         <br/>
                         School email: <a
-                        href="mailto:rikin.gurditta@mail.utoronto.ca">rikin.gurditta@mail.utoronto.ca</a>
+                        href="mailto:rikin.gurditta@uwaterloo.ca">rikin.gurditta@uwaterloo.ca</a>
                         <br/>
                         I use any pronouns
                     </p>
